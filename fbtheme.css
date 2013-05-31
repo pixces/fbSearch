@@ -1,0 +1,68 @@
+body { 
+    margin:0 auto;
+    font-family: verdana;
+    font-size: 10pt;    
+}
+
+.clearfloat{
+    clear:both;
+}
+
+#header{
+    height:100px;
+    border-bottom: 5px solid #3b5998;
+    margin-bottom: 15px;
+    background: #7f93bc;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+h1{
+    font-family: georgia;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0;
+    padding: 20px 0 0;
+}
+
+#header p{
+    padding:0;
+    margin: 0;
+}
+
+#postContainer{
+    margin: 0 auto;
+    width: 85%;
+}
+
+div.post{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #E9E9E9;
+}
+
+div.post img{
+    padding-right:10px;
+    float:left;
+}
+
+div.post .postContent{
+    padding-left: 70px;
+}
+
+div.post span{
+    display:block;
+    padding-bottom:5px;
+}
+
+span.name{
+    font-family:arial;
+    font-weight: bold;
+    color:#3b5998;
+}
+
+div.metadata{
+    font-size:80%;
+    color: #7f93bc;
+}
